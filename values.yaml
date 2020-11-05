@@ -4,6 +4,7 @@
 image:
   multus:
     repository: harbor.dna.iplab.au.singtelgroup.net/multus/multus
+    tag: stable
     pullPolicy: Always
   cni:
     repository: harbor.dna.iplab.au.singtelgroup.net/multus/cni-plugin
