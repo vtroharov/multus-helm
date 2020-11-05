@@ -3,10 +3,10 @@
 # Declare variables to be passed into your templates.
 image:
   multus:
-    repository: nfvpe/multus
+    repository: dnalab1mgmt001.dna.iplab.au.singtelgroup.net:5000/multus/multus
     pullPolicy: Always
   cni:
-    repository: gmehta3/cni-plugin
+    repository: dnalab1mgmt001.dna.iplab.au.singtelgroup.net:5000/multus/cni-plugin
     tag: v0.8.7
 
 imagePullSecrets: []
