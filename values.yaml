@@ -3,10 +3,10 @@
 # Declare variables to be passed into your templates.
 image:
   multus:
-    repository: harbor.dna.iplab.au.singtelgroup.net/rancher/multus
+    repository: harbor.dna.networks.au.singtelgroup.net/rancher/multus
     pullPolicy: Always
   cni:
-    repository: harbor.dna.iplab.au.singtelgroup.net/rancher/cni-plugin
+    repository: harbor.dna.networks.au.singtelgroup.net/rancher/cni-plugin
     tag: v0.8.7
 
 imagePullSecrets: []
